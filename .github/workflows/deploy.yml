@@ -11,8 +11,8 @@ permissions:
 
 env:
   ORIGIN_SERVER_NAME: 'justdemo.work'
-  PROJECT_NAME: 'tailwind-profile'
-  # BASE_API_URL: "/api"
+  BASE_NAME: 'nuxt'
+  PROJECT_NAME: '${{ github.ref_name }}'
 
 jobs:
   # Build on Github Ubuntu to save the resource
